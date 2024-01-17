@@ -1,0 +1,28 @@
+.navbar ul li{
+    display: inline-block;
+}
+.navbar {
+    background-color: rgb(65, 105, 225);
+   width: 1000px;
+   /* height: 50px; */
+   /* padding: 2%px; */
+   border-top: 2px solid ;
+   border-bottom: 2px solid;
+}
+.navbar ul {
+    padding-left: 6%;
+    color: white;
+}
+.navbar ul li:nth-child(2){
+    padding-left: 2%;
+}
+.navbar ul li:nth-child(3){
+    padding-left: 60%;
+}
+.navbar ul li button{
+   background-color:  rgb(65, 105, 225);;
+  color: white;
+
+    border-radius: 30%;
+    border-color: white;
+}
